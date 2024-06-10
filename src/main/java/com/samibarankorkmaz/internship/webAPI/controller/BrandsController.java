@@ -22,7 +22,7 @@ import java.util.UUID;
 public class BrandsController { //isimlendirme geleneksel olarak çoğul yani "Brands"...
     private final BrandService brandService;
 
-    //********************* GET *********************
+    //********************* GET **********************
     @GetMapping("/brand-counter")
     public long howManyBrandsDoWeHave(){
         return brandService.howManyBrandsDoWeHave();
