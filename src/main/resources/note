@@ -1,0 +1,11 @@
+hazır veritabanımız varsa ddl-auto özelliğini iptal edebiliriz.
+unique constraint kullanımı
+SEARCHING&SORTING -> FRONT&BACKEND!!!
+
+
+eğer entity içinde @notnull, @notblank, @size gibi consraintleri
+yazarsak, bu her zaman geçerli olmuş olur. yani belki kullanıcıya
+göre, belki belirli http isteğine göre "size" farklı olacak, bazen
+de "boş" veya "null" olabilecek verimiz. dolayısıyla request/response
+pattern dahilinde, isteklerimiz yani DTO'larımız içinde bu kısıtlarımızı
+koyarsak mantıklı olacaktır.
