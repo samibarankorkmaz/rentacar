@@ -30,8 +30,7 @@ public class ModelServiceImpl implements ModelService {
         return ResponseEntity.ok(getModelResponse);
     }
 
-    //***POST******hgjhkjk23154445
-    //5646545645
+    //***POST***
     @Override
     public ResponseEntity<Void> add(CreateModelRequest createModelRequest, UriComponentsBuilder ucb) {
         Model model = modelMapperService.forRequest().map(createModelRequest, Model.class);
