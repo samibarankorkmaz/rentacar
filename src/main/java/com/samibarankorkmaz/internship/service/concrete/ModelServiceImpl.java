@@ -22,7 +22,7 @@ public class ModelServiceImpl implements ModelService {
     private final ModelRepository modelRepository;
     private final ModelMapperService modelMapperService;
 
-    //***GET***main branch changeé
+    //***GET***main branch change!
     @Override
     public ResponseEntity<GetModelResponse> getById(UUID uuid) {
         Model model = modelRepository.findById(uuid).orElseThrow();
