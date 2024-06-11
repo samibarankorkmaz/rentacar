@@ -5,6 +5,9 @@ import com.samibarankorkmaz.internship.repository.abstracts.BrandRepository;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 
+
+// this is the place where we insert the rules for brand entity
+
 @Service
 @AllArgsConstructor
 public class BrandBusinessRules {
